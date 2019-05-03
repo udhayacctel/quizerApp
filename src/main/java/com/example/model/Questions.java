@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Questions {
 
-Long q_id;
+
 public Long getQ_id() {
 	return q_id;
 }
@@ -41,10 +41,21 @@ public ArrayList<Answers> getAnswers() {
 public void setAnswers(ArrayList<Answers> answers) {
 	this.answers = answers;
 }
+public String getSubject() {
+	return subject;
+}
+public void setSubject(String subject) {
+	this.subject = subject;
+}
+
+
+Long q_id;
 Long question_number;
 Long q_seq_num;
 String answer_type;
 String question_expl;
+String subject;
+
 ArrayList<Answers> answers;
 
 

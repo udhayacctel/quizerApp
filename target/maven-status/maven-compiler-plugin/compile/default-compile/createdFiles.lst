@@ -1,0 +1,10 @@
+com\example\controller\QuizController.class
+com\example\exception\GenericException.class
+com\example\model\Questions.class
+com\example\loader\QuizLoader.class
+com\example\model\QuizMetadata.class
+com\example\commons\Constants.class
+com\example\commons\DBConnection.class
+com\example\demo\QuizerAppApplication.class
+com\example\model\QuizQuestions.class
+com\example\model\Answers.class
